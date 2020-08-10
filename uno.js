@@ -33,7 +33,7 @@ for (i = 0; i < 5; i++) {
     while (sexo != "f" && sexo != "m") {
         sexo = prompt("Error. Ingrese sexo -f/m-");
     }
-    edad = parseInt(prompt("Ingrese edad: "));
+    edad = parseInt(prompt("Ingrese edad -min. 1 año-: "));
     while (edad < 1 || edad > 120 || isNaN(edad)) {
         edad = parseInt(prompt("Error. Ingrese edad: "));
     }
